@@ -1,4 +1,4 @@
-[![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly)
 
 # Budgtr
 
@@ -251,13 +251,3 @@ Feel free to choose what you want and if you want to implement something differe
 
 *Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
-# Budgtr
-<br>
-
----
-
-Title: Budgtr <br>
-Type: Homework <br>
-Creator: Karolin Rafalski <br>
-
----
