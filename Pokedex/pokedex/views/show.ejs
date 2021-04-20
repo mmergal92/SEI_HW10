@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href= "/public/assets/style.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Show</title>
 </head>
 <body>
     <h1>Pokemon show page</h1>
+    <div class = large-container>
+    <div class = "left-div">
     <p>
-        <%= pokemons.name %> </br>
+        <h2><%= pokemons.name %> </br></h2>
         <img src = <%=pokemons.img%>></br>
-        Type
+    </div>
+    <div class = "right-div">
+        <h2>Type</h2>
         <ul>
             <%= pokemons.type[0] %></br>
             <%= pokemons.type[1] %></br>
         </ul>
-        Stats
+        <h2>Stats</h2>
         <ul>
-        HP STATS <%= pokemons.stats.hp %></br>
+        HP STATS<%= pokemons.stats.hp %></br>
         ATTACK STATS <%= pokemons.stats.attack %></br>
         DEFENSE STATS <%= pokemons.stats.defense %></br>
+    </div>
     </ul>
-      <a href="/pokemon">Back to Index</a>
+      <h2><a href="/pokemon">Back to Index</a></h2>
     </p>
+</div>
 </body>
 </html>
