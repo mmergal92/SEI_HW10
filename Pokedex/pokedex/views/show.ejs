@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Show</title>
+</head>
+<body>
+    <h1>Pokemon show page</h1>
+    <p>
+        <%= pokemons.name %> </br>
+        <img src = <%=pokemons.img%>></br>
+        Type
+        <ul>
+            <%= pokemons.type[0] %></br>
+            <%= pokemons.type[1] %></br>
+        </ul>
+        Stats
+        <ul>
+        HP STATS <%= pokemons.stats.hp %></br>
+        ATTACK STATS <%= pokemons.stats.attack %></br>
+        DEFENSE STATS <%= pokemons.stats.defense %></br>
+    </ul>
+      <a href="/pokemon">Back to Index</a>
+    </p>
+</body>
+</html>

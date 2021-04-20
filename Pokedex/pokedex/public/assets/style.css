@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+/* img{
+    max-width: 40%;
+} */
+div{
+    /* padding: 10px; */
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    flex-basis: auto;
+    margin: auto;
+}
+a:link{
+    text-decoration: dotted;
+}
+a:hover{
+    color: hotpink;
+}
+h1{
+    color: navy;
+}
+p{
+    color: navy;
+}
